@@ -163,7 +163,7 @@ footer p {
 
 .item2::before {
   content: "";
-  background-image: url(aerolinessite/pictures/shield-check-svgrepo-com.svg);
+  background-image: url(https://raw.githubusercontent.com/sasp1983/aerolinessite/21e4df70010d3067346fe1a29fbc66acbd1a0bb2/pictures/shield-check-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@ footer p {
 
 .item3::before {
   content: "";
-  background-image: url(aerolinessite/pictures/check-mark-svgrepo-com.svg);
+  background-image: url(https://raw.githubusercontent.com/sasp1983/aerolinessite/21e4df70010d3067346fe1a29fbc66acbd1a0bb2/pictures/check-mark-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
