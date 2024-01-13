@@ -82,7 +82,7 @@ footer p {
   display: flex;
   position: absolute;
   width: 10em;
-  color: rgb(11, 0, 114);
+  color: var(--sky-blue);
   top: 100px;
   left: 0.5em;
   height: min-content;
