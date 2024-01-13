@@ -82,7 +82,7 @@ footer p {
   display: flex;
   position: absolute;
   width: 10em;
-  color: var(--clr-light);
+  color: white;
   top: 100px;
   left: 0.5em;
   height: min-content;
