@@ -132,7 +132,7 @@ footer p {
 
 .item1::before {
   content: "";
-  background-image: url(/pictures/clock-svgrepo-com.svg);
+  background-image: url(pictures/clock-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ footer p {
 
 .item2::before {
   content: "";
-  background-image: url(/pictures/shield-check-svgrepo-com.svg);
+  background-image: url(pictures/shield-check-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,7 +160,7 @@ footer p {
 
 .item3::before {
   content: "";
-  background-image: url(/pictures/check-mark-svgrepo-com.svg);
+  background-image: url(pictures/check-mark-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
