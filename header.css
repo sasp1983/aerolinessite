@@ -1,0 +1,50 @@
+header {
+  background-color: var(--sky-blue);
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: clamp(3vw, 4vw, 6vw);
+  color: white;
+  padding-left: 1em;
+  margin-right: 1em;
+}
+
+.hamburger-menu-button-container:hover {
+  cursor: pointer;
+}
+
+.hamburger-menu-button-container {
+  margin-right: 3em;
+  position: relative;
+}
+
+.hamburger-menu {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  color: white;
+  z-index: 1;
+  background-color: var(--sky-blue);
+  width: 40vw;
+  border: solid 1px white;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+/* .hamburger-menu-button-container:active .hamburger-menu {
+  opacity: 1;
+}  */
+
+.book,
+.about,
+.contact {
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 10px;
+}

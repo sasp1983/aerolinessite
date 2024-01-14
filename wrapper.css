@@ -1,0 +1,14 @@
+.pageWrapper-flex-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageWrapper {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
