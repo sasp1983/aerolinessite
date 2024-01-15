@@ -155,7 +155,7 @@ footer p {
 
 .item2::before {
   content: "";
-  background-image: url(/pictures/shield-check-svgrepo-com.svg);
+  background-image: url(pictures/shield-check-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
