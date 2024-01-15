@@ -7,7 +7,7 @@ header {
 }
 
 .header-title {
-  font-size: clamp(3vw, 4vw, 6vw);
+  font-size: clamp(1em, 2em, 3em);
   color: white;
   padding-left: 1em;
   margin-right: 1em;

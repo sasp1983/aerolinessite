@@ -1,0 +1,27 @@
+@media (max-width: 540px) {
+  .text-box p {
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 960px) {
+  html {
+    max-width: 100%;
+  }
+  .text-box .spanName {
+    font-size: 3em;
+    position: absolute;
+    top: 160px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .gridbox {
+    grid-template-columns: 1fr;
+  }
+
+  .gridbox .item1, .item2, .item3 {
+    margin: 10px;
+  }
+}

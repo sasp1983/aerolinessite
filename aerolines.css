@@ -6,17 +6,16 @@
 
 html {
   padding: 0;
-  margin: 0;
+  margin: auto;
   font-family: Cinzel;
-  min-width: auto;
+  max-width: 75%;
 }
 
 body {
   margin: 0;
   padding: 0;
-  min-width: 100vw;
+  min-width: 100%;
   background-color: var(--clr-light);
-  background-color: #ffffff;
   opacity: 1;
   /* background-image: repeating-radial-gradient(
       circle at 0 0,
@@ -24,7 +23,6 @@ body {
       #000000 12px
     ),
     repeating-linear-gradient(#49494955, #494949); */
-  min-height: 100vw;
 }
 
 footer {
@@ -39,6 +37,9 @@ footer {
   color: white;
   height: auto;
   justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 footer p {
@@ -48,13 +49,14 @@ footer p {
 }
 
 .main-box {
-  width: auto;
+  /* min-width: 400px; */
 }
+
 .pic-con img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .pic-con {
@@ -65,24 +67,29 @@ footer p {
 .text-box {
   display: flex;
   position: absolute;
-  width: auto;
+  max-width: 90%;
   color: rgb(11, 0, 114);
-  top: 100px;
+  /* top: 100px; */
   left: 0.5em;
-  height: min-content;
+  max-height:auto ;
   display: flex;
-  font-size: clamp(3vw, 3.5vw, 3vw);
+  font-size: calc(1.6em - 0.1vw);
   opacity: 1;
+  flex-shrink: 0;
+  box-sizing: border-box;
 }
 
+.text-box p{
+  margin: 10px;
+}
 .text-box .loveSpan {
   color: rgb(255, 70, 101);
   text-transform: uppercase;
 }
 
 .text-box .spanName {
-  color: white;
-  font-size: 7vw;
+  color: var(--sky-blue);
+  font-size:calc(1.8em - 0.3vw);
 }
 
 .text-body {
@@ -102,8 +109,9 @@ footer p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-bottom: 10px;
-  margin-top: 10px;
-  height: auto;
+  margin-top: 20px;
+  align-items: center;
+
 }
 
 .item1,
@@ -111,20 +119,21 @@ footer p {
 .item3 {
   color: rgb(119, 119, 119);
   background-color: rgb(255, 255, 255);
-  font-size: clamp(3vw, 4vw, 3vw);
+  /* font-size: clamp(3vw, 4vw, 3vw); */
+  font-size:calc(1.2em - 0.3vw);
   display: inline-block;
   flex-direction: column;
   text-align: center;
   position: relative;
-  max-width: auto;
-  max-height: 200px;
+
 }
 
 .item1 span,
 .item2 span,
 .item3 span {
   color: rgb(24, 207, 0);
-  font-size: clamp(5vw, 6vw, 5vw);
+  /* font-size: clamp(5vw, 6vw, 5vw); */
+  font-size:calc(1.5em - 0.3vw);
   font-weight: bold;
   display: block;
   text-align: center;
@@ -132,7 +141,7 @@ footer p {
 
 .item1::before {
   content: "";
-  background-image: url(pictures/clock-svgrepo-com.svg);
+  background-image: url(/pictures/clock-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -146,7 +155,7 @@ footer p {
 
 .item2::before {
   content: "";
-  background-image: url(pictures/shield-check-svgrepo-com.svg);
+  background-image: url(/pictures/shield-check-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,7 +169,7 @@ footer p {
 
 .item3::before {
   content: "";
-  background-image: url(pictures/check-mark-svgrepo-com.svg);
+  background-image: url(/pictures/check-mark-svgrepo-com.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -171,3 +180,4 @@ footer p {
   left: 0px;
   bottom: 0px;
 }
+
